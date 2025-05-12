@@ -4,129 +4,111 @@ using UnityEngine;
 
 public class archerScript : MonoBehaviour
 {
-    public float moveForce = 20f, jumpForce = 550f, maxVelocity = 3f;
-    private Rigidbody2D myBody;
+    [Header("Movement Settings")]
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
+
+    private Rigidbody2D rb;
     private Animator anim;
-    private bool grounded = true;
-    private bool grounded2 = true;
-    public float h;
-    public float v;
-    //public float F;
+    private bool isGrounded = true;
+    private float h;
+    private bool jumpPressed = false;
 
-    public float ForceX = 0;
-    public float ForceY = 0;
-    
-  
-
+    private bool arrowReady = true;
+    public float arrowForce;
+    public GameObject arrow;
     private void Awake()
     {
-        //Shoot();
-        variables();
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
-    void Start()
-    {
 
-    }
     void Update()
     {
-    
+        // Read input
+        h = Input.GetAxisRaw("Horizontal");
+
+        // Trigger jump on key press
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            jumpPressed = true;
+        }
+        if (Input.GetButtonDown("Fire1") && arrowReady)
+        {
+            //isShoot = true;
+            ArrowShoot();
+        }
+
+        HandleAnimations();
     }
 
     void FixedUpdate()
     {
-        walkKeyboard();
-        h = Input.GetAxis("Horizontal");
-        v = Input.GetAxis("Vertical");
+        Move();
+        Jump();
     }
 
-    void variables()
+    public void ArrowShoot()
     {
-        myBody = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-    }  
-
-    void walkKeyboard()
-    {
-        float ForceX = 0;
-        float ForceY = 0;
-        float vel = Mathf.Abs(myBody.velocity.x);
-
-        if (h > 0)
-        {
-            anim.SetBool("walk", true);
-
-            if (vel < maxVelocity)
-            {
-                ForceX = moveForce;
-            }
-            Vector3 scale = transform.localScale;
-            scale.x = 0.7f;
-            transform.localScale = scale;
-        }
-
-        else if (h < 0)
-        {
-            anim.SetBool("walk", true);
-            if (vel < maxVelocity)
-            {
-                ForceX = -moveForce;
-            }
-            Vector3 scale = transform.localScale;
-            scale.x = -0.7f;
-            transform.localScale = scale;
-        }
-        else if (h == 0)
-        {
-            anim.SetBool("walk", false);
-        }
-
-        if (v > 0)
-        {
-            if (grounded)
-            {
-                anim.SetBool("jump", true);
-                grounded = false;
-                ForceY = jumpForce;  
-            }
-            else
-            {
-                anim.SetBool("walk", false);
-            }
-        }
-
-        if (!grounded)
-        {
-            anim.SetBool("walk", false);
-        }
-        if (grounded)
-        {
-            myBody.AddForce(new Vector2(ForceX, ForceY));
-        }
-        myBody.AddForce(new Vector2(ForceX, ForceY));
+        arrowReady = false;
+        GameObject ArrowIns = Instantiate(arrow, transform.position, transform.rotation);
+        ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * arrowForce;
+        //arrowBal.totalArrow -= 1;
+        // PlayerPrefs.SetInt("Arrow", arrowBal.totalArrow);
+        StartCoroutine(arrowDelay());
     }
+    IEnumerator arrowDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        arrowReady = true;
+    }
+    private void Move()
+    {
+        rb.velocity = new Vector2(h * moveSpeed, rb.velocity.y);
+
+        // Flip character based on direction
+        if (h != 0)
+        {
+            transform.localScale = new Vector3(Mathf.Sign(h) * 0.6f, 0.6f, 1f);
+        }
+    }
+
+    private void Jump()
+    {
+        if (jumpPressed)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            isGrounded = false;
+            jumpPressed = false;
+        }
+    }
+
+    private void HandleAnimations()
+    {
+        anim.SetBool("walk", h != 0);
+        anim.SetBool("jump", !isGrounded);
+    }
+
     void OnCollisionEnter2D(Collision2D target)
     {
-        if (target.gameObject.tag == "ground")
+        if (target.gameObject.CompareTag("ground"))
         {
-            grounded = true;
+            isGrounded = true;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if(coll.tag == "fireBall")
+        if (coll.CompareTag("fireBall"))
         {
-            //anim.SetBool("damage", true);
-            StartCoroutine(healthDown());
-            Destroy(GameObject.FindWithTag("fireBall"));
+            StartCoroutine(HealthDown());
+            Destroy(coll.gameObject);
         }
-
-        IEnumerator healthDown()
-        {
-            yield return new WaitForSeconds(0.3f);
-            //anim.SetBool("damage", false);
-        }
-
     }
 
+    IEnumerator HealthDown()
+    {
+        // Optional animation trigger here
+        yield return new WaitForSeconds(0.3f);
+    }
 }
