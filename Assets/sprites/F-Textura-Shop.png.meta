@@ -1,0 +1,1090 @@
+fileFormatVersion: 2
+guid: 4eb99eba9e84f47498059e2d1126b932
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2360630753566942653
+    second: F-Textura-Shop_0
+  - first:
+      213: 3462622495072949649
+    second: F-Textura-Shop_1
+  - first:
+      213: -8774018944535129627
+    second: F-Textura-Shop_2
+  - first:
+      213: -9074474419382675608
+    second: F-Textura-Shop_3
+  - first:
+      213: -3754470237392303375
+    second: F-Textura-Shop_4
+  - first:
+      213: -479094350800719088
+    second: F-Textura-Shop_5
+  - first:
+      213: -6688273017160979227
+    second: F-Textura-Shop_6
+  - first:
+      213: 2324412173465180935
+    second: F-Textura-Shop_7
+  - first:
+      213: 229377290286909002
+    second: F-Textura-Shop_8
+  - first:
+      213: 7174221647193584424
+    second: F-Textura-Shop_9
+  - first:
+      213: 8683701806773520972
+    second: F-Textura-Shop_10
+  - first:
+      213: 1586860505236325907
+    second: F-Textura-Shop_11
+  - first:
+      213: 2465157420262163116
+    second: F-Textura-Shop_12
+  - first:
+      213: -2681893191845527720
+    second: F-Textura-Shop_13
+  - first:
+      213: -5765326971686341283
+    second: F-Textura-Shop_14
+  - first:
+      213: -7059162852099251730
+    second: F-Textura-Shop_15
+  - first:
+      213: 8332381583949642043
+    second: F-Textura-Shop_16
+  - first:
+      213: -7239140788911734694
+    second: F-Textura-Shop_17
+  - first:
+      213: 698613501082580562
+    second: F-Textura-Shop_18
+  - first:
+      213: 3035478715920735369
+    second: F-Textura-Shop_19
+  - first:
+      213: 2546339661609163632
+    second: F-Textura-Shop_20
+  - first:
+      213: 1194471883535043389
+    second: F-Textura-Shop_21
+  - first:
+      213: 8856547881163780721
+    second: F-Textura-Shop_22
+  - first:
+      213: 7637719891811399091
+    second: F-Textura-Shop_23
+  - first:
+      213: 7310286185725777811
+    second: F-Textura-Shop_24
+  - first:
+      213: -26784582021498032
+    second: F-Textura-Shop_25
+  - first:
+      213: 4225755942651305579
+    second: F-Textura-Shop_26
+  - first:
+      213: 8709021984404244502
+    second: F-Textura-Shop_27
+  - first:
+      213: -3455791736132322111
+    second: F-Textura-Shop_28
+  - first:
+      213: -4989101526463740720
+    second: F-Textura-Shop_29
+  - first:
+      213: 7470605261738749608
+    second: F-Textura-Shop_30
+  - first:
+      213: 7799145101838156842
+    second: F-Textura-Shop_31
+  - first:
+      213: 3086985347929865806
+    second: F-Textura-Shop_32
+  - first:
+      213: 2336433682482055655
+    second: F-Textura-Shop_33
+  - first:
+      213: 7316956539776116412
+    second: F-Textura-Shop_34
+  - first:
+      213: -254024836066334612
+    second: F-Textura-Shop_35
+  - first:
+      213: -8458582288568297655
+    second: F-Textura-Shop_36
+  - first:
+      213: 24075640627272177
+    second: F-Textura-Shop_37
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: F-Textura-Shop_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 759
+        width: 158
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a97c736da5d3fd0800000000000000
+      internalID: -2360630753566942653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 944
+        width: 249
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195991240d4bd0030800000000000000
+      internalID: 3462622495072949649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_2
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 944
+        width: 249
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e19f66b14c6c3680800000000000000
+      internalID: -8774018944535129627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_3
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 944
+        width: 182
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867935d189df01280800000000000000
+      internalID: -9074474419382675608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_4
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 920
+        width: 119
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa847c063175ebc0800000000000000
+      internalID: -3754470237392303375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 553
+        width: 308
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01370aee93ae959f0800000000000000
+      internalID: -479094350800719088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 678
+        width: 373
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec2a4b702b7e23a0800000000000000
+      internalID: -6688273017160979227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 880
+        width: 141
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b5cf67e88f14020800000000000000
+      internalID: 2324412173465180935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 629
+        width: 81
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46c7132e69ee2300800000000000000
+      internalID: 229377290286909002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 621
+        width: 76
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82334e4d394ff8360800000000000000
+      internalID: 7174221647193584424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_10
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 741
+        width: 139
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a4728f8c4b28870800000000000000
+      internalID: 8683701806773520972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 544
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31645b2d839a50610800000000000000
+      internalID: 1586860505236325907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_12
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 595
+        width: 321
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2052edc9ff53220800000000000000
+      internalID: 2465157420262163116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_13
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 612
+        width: 129
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f328ee95008cad0800000000000000
+      internalID: -2681893191845527720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 494
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5538ae4aa17dffa0800000000000000
+      internalID: -5765326971686341283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 508
+        width: 322
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1adfc79c0d80e90800000000000000
+      internalID: -7059162852099251730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_16
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 483
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39335c57e092a370800000000000000
+      internalID: 8332381583949642043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 432
+        width: 221
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5000ed9ec7698b90800000000000000
+      internalID: -7239140788911734694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_18
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 443
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256b15f1749f1b900800000000000000
+      internalID: 698613501082580562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_19
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 438
+        width: 74
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd6b93fcf202a20800000000000000
+      internalID: 3035478715920735369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_20
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 326
+        width: 158
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd3bf5e6a665320800000000000000
+      internalID: 2546339661609163632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_21
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 134
+        width: 35
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b4c4879dd939010800000000000000
+      internalID: 1194471883535043389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_22
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 134
+        width: 34
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727109bf57c8ea70800000000000000
+      internalID: 8856547881163780721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_23
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 134
+        width: 36
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b57a5576c1aef960800000000000000
+      internalID: 7637719891811399091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_24
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 134
+        width: 35
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39751aaed8a537560800000000000000
+      internalID: 7310286185725777811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_25
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 362
+        width: 95
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bb6278097d0aff0800000000000000
+      internalID: -26784582021498032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_26
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 363
+        width: 91
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e1a3d04a6e4aa30800000000000000
+      internalID: 4225755942651305579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_27
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 312
+        width: 152
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6188b793a59acd870800000000000000
+      internalID: 8709021984404244502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_28
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 334
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc3a1eb9bf8a00d0800000000000000
+      internalID: -3455791736132322111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_29
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 190
+        width: 121
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d405c6589623cab0800000000000000
+      internalID: -4989101526463740720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_30
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 260
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae2a1397ebeca760800000000000000
+      internalID: 7470605261738749608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_31
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 0
+        width: 158
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a248ac206212c3c60800000000000000
+      internalID: 7799145101838156842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_32
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 8
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ef13281dc27da20800000000000000
+      internalID: 3086985347929865806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_33
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 8
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9c9952e0eac6020800000000000000
+      internalID: 2336433682482055655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_34
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 96
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6a35eb43d0b8560800000000000000
+      internalID: 7316956539776116412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_35
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 15
+        width: 69
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68a32ae1c5897cf0800000000000000
+      internalID: -254024836066334612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_36
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 14
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d97a59341d9a80800000000000000
+      internalID: -8458582288568297655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: F-Textura-Shop_37
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 4
+        width: 189
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f91457eaa8855000800000000000000
+      internalID: 24075640627272177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      F-Textura-Shop_0: -2360630753566942653
+      F-Textura-Shop_1: 3462622495072949649
+      F-Textura-Shop_10: 8683701806773520972
+      F-Textura-Shop_11: 1586860505236325907
+      F-Textura-Shop_12: 2465157420262163116
+      F-Textura-Shop_13: -2681893191845527720
+      F-Textura-Shop_14: -5765326971686341283
+      F-Textura-Shop_15: -7059162852099251730
+      F-Textura-Shop_16: 8332381583949642043
+      F-Textura-Shop_17: -7239140788911734694
+      F-Textura-Shop_18: 698613501082580562
+      F-Textura-Shop_19: 3035478715920735369
+      F-Textura-Shop_2: -8774018944535129627
+      F-Textura-Shop_20: 2546339661609163632
+      F-Textura-Shop_21: 1194471883535043389
+      F-Textura-Shop_22: 8856547881163780721
+      F-Textura-Shop_23: 7637719891811399091
+      F-Textura-Shop_24: 7310286185725777811
+      F-Textura-Shop_25: -26784582021498032
+      F-Textura-Shop_26: 4225755942651305579
+      F-Textura-Shop_27: 8709021984404244502
+      F-Textura-Shop_28: -3455791736132322111
+      F-Textura-Shop_29: -4989101526463740720
+      F-Textura-Shop_3: -9074474419382675608
+      F-Textura-Shop_30: 7470605261738749608
+      F-Textura-Shop_31: 7799145101838156842
+      F-Textura-Shop_32: 3086985347929865806
+      F-Textura-Shop_33: 2336433682482055655
+      F-Textura-Shop_34: 7316956539776116412
+      F-Textura-Shop_35: -254024836066334612
+      F-Textura-Shop_36: -8458582288568297655
+      F-Textura-Shop_37: 24075640627272177
+      F-Textura-Shop_4: -3754470237392303375
+      F-Textura-Shop_5: -479094350800719088
+      F-Textura-Shop_6: -6688273017160979227
+      F-Textura-Shop_7: 2324412173465180935
+      F-Textura-Shop_8: 229377290286909002
+      F-Textura-Shop_9: 7174221647193584424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
