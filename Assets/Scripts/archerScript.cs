@@ -48,25 +48,49 @@ public class archerScript : MonoBehaviour
         Jump();
     }
 
+
+
     public void ArrowShoot()
     {
+        anim.SetBool("shoot", true);
         arrowReady = false;
-        GameObject ArrowIns = Instantiate(arrow, transform.position, transform.rotation);
-        ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * arrowForce;
-        //arrowBal.totalArrow -= 1;
-        // PlayerPrefs.SetInt("Arrow", arrowBal.totalArrow);
-        StartCoroutine(arrowDelay());
+        StartCoroutine(DelayedArrowShoot());
     }
-    IEnumerator arrowDelay()
+
+    IEnumerator DelayedArrowShoot()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f); // Delay for animation sync
+
+        Vector3 arrowInitPos;
+        Vector2 arrowVelocity;
+
+        if (transform.localScale.x > 0)
+        {
+            arrowInitPos = new Vector3(transform.position.x + 1, transform.position.y, transform.position.z);
+            arrowVelocity = transform.right * arrowForce;
+        }
+        else
+        {
+            arrowInitPos = new Vector3(transform.position.x - 1, transform.position.y, transform.position.z);
+            arrowVelocity = transform.right * -arrowForce;
+        }
+
+        GameObject ArrowIns = Instantiate(arrow, arrowInitPos, transform.rotation);
+        ArrowIns.GetComponent<Rigidbody2D>().velocity = arrowVelocity;
+
+        anim.SetBool("shoot", false);
+
+        // Wait 1 second cooldown before allowing next shot
+        yield return new WaitForSeconds(0.4f);
         arrowReady = true;
     }
+
+
     private void Move()
     {
         rb.velocity = new Vector2(h * moveSpeed, rb.velocity.y);
 
-        // Flip character based on direction
+
         if (h != 0)
         {
             transform.localScale = new Vector3(Mathf.Sign(h) * 0.6f, 0.6f, 1f);
@@ -99,11 +123,11 @@ public class archerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.CompareTag("fireBall"))
+       /* if (coll.CompareTag("fireBall"))
         {
             StartCoroutine(HealthDown());
             Destroy(coll.gameObject);
-        }
+        }*/
     }
 
     IEnumerator HealthDown()
