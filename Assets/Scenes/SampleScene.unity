@@ -1329,7 +1329,7 @@ MonoBehaviour:
   pointA: {fileID: 518122637}
   pointB: {fileID: 1320828735}
   player: {fileID: 1840784528}
-  projectilePrefab: {fileID: 5264016644116262257, guid: dcb6526d55dde864997ce6214270bf01, type: 3}
+  projectilePrefab: {fileID: 616247678848969280, guid: 748cf515a38d5574dab3f47d4706288e, type: 3}
   moveSpeed: 2
   throwCooldown: 2
   projectileForce: 5

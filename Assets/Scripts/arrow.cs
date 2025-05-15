@@ -43,7 +43,8 @@ public class arrowScript : MonoBehaviour
             rb.isKinematic = true;
             this.GetComponent<BoxCollider2D>().enabled = false;
             yield return new WaitForSeconds(3f);
-            this.gameObject.SetActive(false);
+            //this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
 
     }

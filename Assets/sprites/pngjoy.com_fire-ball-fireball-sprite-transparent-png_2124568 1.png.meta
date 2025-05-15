@@ -3,7 +3,7 @@ guid: 9c14b84f650fbdd4fb8d409671e44b79
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,10 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -55,11 +57,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -71,11 +77,618 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 376
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8748b1e14ad7e5142af83d045c9f4309
+      internalID: -1775558253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 374
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e7a571108297e46adcb6052bae37c9
+      internalID: 1635945172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 374
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6d4a82c7d351a439649705cabaeec5
+      internalID: -1767831667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 375
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fd37f2a3b45544782786162045cad5
+      internalID: -228647935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 258
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b6dba3dd72454cb4b4cff4f7fed21
+      internalID: 2019192003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 251
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8740a745e039244980f93b5f2c4589
+      internalID: -354119317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 250
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c87f0c2471c214f9ae3d0ceb77e14c
+      internalID: 277283811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 258
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44b7fc85c3efbd4ca7e02cd1316314b
+      internalID: -1399561266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 251
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d21ac061e8fd384395b8adc37782d4a
+      internalID: 141663397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_9
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 257
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ca08dcd1a8fd144b5345973021a1ac
+      internalID: -1111117702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_10
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a1d77cb38a4d441a933643a26cfd91
+      internalID: -1718857550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 256
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69446f12f80ae6845944f73514c7dea3
+      internalID: 1095109737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 251
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a4a0269ad32d04c9909e3729b6bf53
+      internalID: -821618630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_13
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 254
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b54b1027d2fa534997e4276fa7d233d
+      internalID: -1466153383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 133
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16155c9dd86898441a50adc3f941c8d9
+      internalID: -815450926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 131
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77b3ccccfa10b7419ca8477b018cd0e
+      internalID: -1479051103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 136
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d86c4bbf2d4b64d941687c2516ce56
+      internalID: 1851706069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 125
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e0c98ae75c09844bb5d01a98a41321
+      internalID: -1298017089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 133
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0802c79ae884ab4ba1d986069a4ff50
+      internalID: -72701039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 126
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae89c56c6e4095d4285e6c08b17ab9e8
+      internalID: 1287442469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_20
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 124
+        width: 69
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038ed7237f3f6043b38d0d9794be737
+      internalID: -1704117575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_21
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00718475bf6806d4e8e6ff9d902728ae
+      internalID: 925220980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_22
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 129
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c187ec9884b8c54c8dec3ace0eae76b
+      internalID: -1328716326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_23
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 125
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b3659d277ded0498d4cd7172e9c9ea
+      internalID: 2040346620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 5
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7409b196f29cdde40a24fa98193d2b44
+      internalID: -1567647579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 11
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9d3c4b856639144bdab845a3fd383d
+      internalID: -50494410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c17e52eb3f7b44490acc460626013e
+      internalID: -1193519965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -86,9 +699,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_0: -1775558253
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_1: 1635945172
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_10: -1718857550
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_11: 1095109737
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_12: -821618630
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_13: -1466153383
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_14: -815450926
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_15: -1479051103
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_16: 1851706069
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_17: -1298017089
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_18: -72701039
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_19: 1287442469
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_2: -1767831667
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_20: -1704117575
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_21: 925220980
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_22: -1328716326
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_23: 2040346620
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_24: -1567647579
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_25: -50494410
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_26: -1193519965
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_3: -228647935
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_4: 2019192003
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_5: -354119317
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_6: 277283811
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_7: -1399561266
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_8: 141663397
+      pngjoy.com_fire-ball-fireball-sprite-transparent-png_2124568 1_9: -1111117702
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

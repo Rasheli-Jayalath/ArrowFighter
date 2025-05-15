@@ -1,27 +1,9 @@
 fileFormatVersion: 2
 guid: ad48a5e2402d6cb45ae6b04a78fcd8eb
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8832167503239892954
-    second: pngwing.com_0
-  - first:
-      213: -4853055123583119345
-    second: pngwing.com_1
-  - first:
-      213: -8761483511772326392
-    second: pngwing.com_2
-  - first:
-      213: -2217898423111697461
-    second: pngwing.com_3
-  - first:
-      213: -9017237249179667717
-    second: pngwing.com_4
-  - first:
-      213: -8148006739367046648
-    second: pngwing.com_5
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,7 +65,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -112,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -125,7 +107,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -144,19 +126,19 @@ TextureImporter:
       name: pngwing.com_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 512
-        height: 511
+        x: 18
+        y: 36
+        width: 462
+        height: 442
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adfcc53ac89229a70800000000000000
-      internalID: 8832167503239892954
+      spriteID: a43df976117ef0646a53e9eabdf87977
+      internalID: -196491514
       vertices: []
       indices: 
       edges: []
@@ -165,19 +147,19 @@ TextureImporter:
       name: pngwing.com_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1
-        width: 512
-        height: 511
+        x: 528
+        y: 25
+        width: 474
+        height: 449
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f005073e31c76acb0800000000000000
-      internalID: -4853055123583119345
+      spriteID: be95fcf23d9aea6499f9e00082ccb92c
+      internalID: 69802169
       vertices: []
       indices: 
       edges: []
@@ -186,19 +168,19 @@ TextureImporter:
       name: pngwing.com_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1
-        width: 512
-        height: 511
+        x: 1046
+        y: 23
+        width: 447
+        height: 460
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8065e579a25f86680800000000000000
-      internalID: -8761483511772326392
+      spriteID: b03ae53933013c64d9149aabc45a5d8d
+      internalID: 4682129
       vertices: []
       indices: 
       edges: []
@@ -207,19 +189,19 @@ TextureImporter:
       name: pngwing.com_3
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1
-        width: 512
-        height: 511
+        x: 1531
+        y: 40
+        width: 476
+        height: 447
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcb378692217831e0800000000000000
-      internalID: -2217898423111697461
+      spriteID: 6e1ba98dfe934a2488052f94c2f8a63d
+      internalID: -196900819
       vertices: []
       indices: 
       edges: []
@@ -228,19 +210,19 @@ TextureImporter:
       name: pngwing.com_4
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1
-        width: 512
-        height: 511
+        x: 2050
+        y: 50
+        width: 454
+        height: 428
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf2b93b4f765cd280800000000000000
-      internalID: -9017237249179667717
+      spriteID: 8709ad0a2073a0c44ba3ea008ea959ce
+      internalID: 460011846
       vertices: []
       indices: 
       edges: []
@@ -249,19 +231,19 @@ TextureImporter:
       name: pngwing.com_5
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 1
-        width: 512
-        height: 511
+        x: 2562
+        y: 45
+        width: 453
+        height: 442
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 802d9806a077cee80800000000000000
-      internalID: -8148006739367046648
+      spriteID: 09ce284818ef0d9499f143845467b345
+      internalID: 1599359217
       vertices: []
       indices: 
       edges: []
@@ -277,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pngwing.com_0: 8832167503239892954
-      pngwing.com_1: -4853055123583119345
-      pngwing.com_2: -8761483511772326392
-      pngwing.com_3: -2217898423111697461
-      pngwing.com_4: -9017237249179667717
-      pngwing.com_5: -8148006739367046648
+      pngwing.com_0: -196491514
+      pngwing.com_1: 69802169
+      pngwing.com_2: 4682129
+      pngwing.com_3: -196900819
+      pngwing.com_4: 460011846
+      pngwing.com_5: 1599359217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
