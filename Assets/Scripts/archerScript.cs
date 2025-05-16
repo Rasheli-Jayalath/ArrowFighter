@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class archerScript : MonoBehaviour
 {
-    [Header("Movement Settings")]
+
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
@@ -17,6 +17,10 @@ public class archerScript : MonoBehaviour
     private bool arrowReady = true;
     public float arrowForce;
     public GameObject arrow;
+
+    public int health = 3;
+    public GameObject[] hearts;
+    private bool isDie = false;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -40,21 +44,45 @@ public class archerScript : MonoBehaviour
         }
 
         HandleAnimations();
+
+        if (!isDie)
+        {
+
+            for (int i = 0; i < health; i++)
+            {
+                hearts[i].SetActive(true);
+            }
+            for (int j = health; j < hearts.Length; j++)
+            {
+                hearts[j].SetActive(false);
+            }
+        }
+
+
+
     }
 
     void FixedUpdate()
     {
-        Move();
-        Jump();
+        if (!isDie)
+        {
+            Move();
+            Jump();
+        }
+      
     }
 
 
 
     public void ArrowShoot()
     {
-        anim.SetBool("shoot", true);
-        arrowReady = false;
-        StartCoroutine(DelayedArrowShoot());
+        if (!isDie)
+        {
+            anim.SetBool("shoot", true);
+            arrowReady = false;
+            StartCoroutine(DelayedArrowShoot());
+        }
+    
     }
 
     IEnumerator DelayedArrowShoot()
@@ -110,7 +138,6 @@ public class archerScript : MonoBehaviour
     private void HandleAnimations()
     {
         anim.SetBool("walk", h != 0);
-        anim.SetBool("jump", !isGrounded);
     }
 
     void OnCollisionEnter2D(Collision2D target)
@@ -123,16 +150,28 @@ public class archerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-       /* if (coll.CompareTag("fireBall"))
+        if (coll.CompareTag("fireball"))
         {
-            StartCoroutine(HealthDown());
-            Destroy(coll.gameObject);
-        }*/
+         
+            if (!isDie)
+            {
+                anim.SetBool("damage", true);
+                StartCoroutine(HealthDown());
+                Destroy(coll.gameObject);
+                health--;
+            }
+            if (health == 0)
+            {
+                anim.SetBool("die", true);
+                isDie = true;
+            }
+        }
     }
 
     IEnumerator HealthDown()
     {
-        // Optional animation trigger here
+  
         yield return new WaitForSeconds(0.3f);
+        anim.SetBool("damage", false);
     }
 }

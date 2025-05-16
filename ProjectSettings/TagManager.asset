@@ -6,6 +6,11 @@ TagManager:
   tags:
   - ground
   - environment
+  - fireball
+  - arrow
+  - coin
+  - fall
+  - fireball2
   layers:
   - Default
   - TransparentFX

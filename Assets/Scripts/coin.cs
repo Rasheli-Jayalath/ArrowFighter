@@ -17,7 +17,9 @@ public class coin : MonoBehaviour
            
             Instantiate(coinEffect, transform.position, Quaternion.identity);
             //coinBal.totalCoins += 1;
-            //PlayerPrefs.SetInt("Coins", coinBal.totalCoins);
+            int coinBal = PlayerPrefs.GetInt("coinBal");
+            coinBal++;
+            PlayerPrefs.SetInt("coinBal", coinBal);
             Destroy(this.gameObject);
   
             yield return new WaitForSeconds(1f);

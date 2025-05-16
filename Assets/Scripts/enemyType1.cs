@@ -1,4 +1,5 @@
 using System.Collections;
+using System.ComponentModel;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -21,6 +22,11 @@ public class EnemyController : MonoBehaviour
     private bool facingRight = true;
     private bool canThrow = true;
 
+
+    public int health = 3;
+    public GameObject[] hearts;
+    private bool isDie = false;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -30,22 +36,60 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        if (isThrowing)
+        if (!isDie)
         {
-            rb.velocity = Vector2.zero;
-            anim.SetBool("walk", false);
+            if (isThrowing)
+            {
+                rb.velocity = Vector2.zero;
+                anim.SetBool("walk", false);
 
-            FacePlayer();
+                FacePlayer();
 
-            if (canThrow)
-                StartCoroutine(ThrowRoutine());
+                if (canThrow)
+                    StartCoroutine(ThrowRoutine());
+            }
+            else
+            {
+                Patrol();
+            }
+
+       
         }
-        else
+        for (int i = 0; i < health; i++)
         {
-            Patrol();
+            hearts[i].SetActive(true);
+        }
+        for (int j = health; j < hearts.Length; j++)
+        {
+            hearts[j].SetActive(false);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.CompareTag("arrow"))
+        {
+
+            if (!isDie)
+            {
+                anim.SetBool("damage", true);
+                StartCoroutine(HealthDown());
+                Destroy(coll.gameObject);
+                health--;
+            }
+            if (health == 0)
+            {
+                anim.SetBool("die", true);
+                isDie = true;
+            }
         }
     }
 
+    IEnumerator HealthDown()
+    {
+
+        yield return new WaitForSeconds(0.3f);
+        anim.SetBool("damage", false);
+    }
     private void Patrol()
     {
         anim.SetBool("walk", true);
