@@ -16,12 +16,14 @@ public class coin : MonoBehaviour
             AudioSource.PlayClipAtPoint(coinSounds, transform.position);
            
             Instantiate(coinEffect, transform.position, Quaternion.identity);
-            //coinBal.totalCoins += 1;
             int coinBal = PlayerPrefs.GetInt("coinBal");
             coinBal++;
             PlayerPrefs.SetInt("coinBal", coinBal);
             Destroy(this.gameObject);
-  
+
+            int score = PlayerPrefs.GetInt("score");
+            score += PlayerPrefs.GetInt("health") * 5;
+            PlayerPrefs.SetInt("score", score);
             yield return new WaitForSeconds(1f);
             
             

@@ -18,15 +18,22 @@ public class archerScript : MonoBehaviour
     public float arrowForce;
     public GameObject arrow;
 
-    public int health = 3;
-    public GameObject[] hearts;
-    private bool isDie = false;
+
+    private int health;
+    public static bool isDie = false;
+    private bool dieHasTriggered = false;
+
+    private int Arrows;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
+    private void Start()
+    {
+        Arrows = PlayerPrefs.GetInt("arrows");
+    }
     void Update()
     {
         // Read input
@@ -44,20 +51,21 @@ public class archerScript : MonoBehaviour
         }
 
         HandleAnimations();
-
-        if (!isDie)
+        if(!isDie)
         {
 
-            for (int i = 0; i < health; i++)
-            {
-                hearts[i].SetActive(true);
-            }
-            for (int j = health; j < hearts.Length; j++)
-            {
-                hearts[j].SetActive(false);
-            }
+            health = PlayerPrefs.GetInt("health");
         }
-
+        if(health ==0 )
+        {
+            dieHasTriggered = true;
+            isDie = true;
+        }
+        if (dieHasTriggered)
+        {
+            anim.SetBool("die", true);
+            dieHasTriggered = false;
+        }
 
 
     }
@@ -76,10 +84,17 @@ public class archerScript : MonoBehaviour
 
     public void ArrowShoot()
     {
-        if (!isDie)
+        if (!isDie && Arrows!=0)
         {
+            Arrows--;
+            PlayerPrefs.SetInt("arrows",Arrows);
             anim.SetBool("shoot", true);
             arrowReady = false;
+
+            int score = PlayerPrefs.GetInt("score");
+            score += PlayerPrefs.GetInt("health") * 2;
+            PlayerPrefs.SetInt("score", score);
+
             StartCoroutine(DelayedArrowShoot());
         }
     
@@ -158,7 +173,9 @@ public class archerScript : MonoBehaviour
                 anim.SetBool("damage", true);
                 StartCoroutine(HealthDown());
                 Destroy(coll.gameObject);
+                
                 health--;
+                PlayerPrefs.SetInt("health",health);
             }
             if (health == 0)
             {

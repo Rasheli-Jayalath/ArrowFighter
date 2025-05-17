@@ -1,6 +1,7 @@
 using System.Collections;
 using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class EnemyController : MonoBehaviour
 {
@@ -80,6 +81,31 @@ public class EnemyController : MonoBehaviour
             {
                 anim.SetBool("die", true);
                 isDie = true;
+
+                int score = PlayerPrefs.GetInt("score");
+                score += PlayerPrefs.GetInt("health") * 25;
+                PlayerPrefs.SetInt("score", score);
+            }
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Rigidbody2D playerRb = collision.gameObject.GetComponent<Rigidbody2D>();
+
+            if (playerRb != null && !archerScript.isDie)
+            {
+                // Determine push direction based on enemy and player position
+                float pushDirection = collision.transform.position.x > transform.position.x ? 1 : -1;
+
+                int healthArcher = PlayerPrefs.GetInt("health");
+                healthArcher--;
+                if (healthArcher != 0)
+                {
+                    playerRb.AddForce(new Vector2(pushDirection * 3000f, 0));
+                }
+                PlayerPrefs.SetInt("health", healthArcher);
             }
         }
     }
@@ -89,6 +115,10 @@ public class EnemyController : MonoBehaviour
 
         yield return new WaitForSeconds(0.3f);
         anim.SetBool("damage", false);
+
+        int score = PlayerPrefs.GetInt("score");
+        score += PlayerPrefs.GetInt("health") * 15;
+        PlayerPrefs.SetInt("score", score);
     }
     private void Patrol()
     {
