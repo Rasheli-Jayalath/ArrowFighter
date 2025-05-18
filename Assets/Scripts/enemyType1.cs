@@ -15,24 +15,28 @@ public class EnemyController : MonoBehaviour
     public float moveSpeed = 2f;
     public float throwCooldown = 2f;
     public float projectileForce = 5f;
-    public bool isThrowing = false;
+    public bool isThrowing;
 
     private Animator anim;
     private Rigidbody2D rb;
     private Vector3 nextPoint;
     private bool facingRight = true;
-    private bool canThrow = true;
+    private bool canThrow;
 
 
-    public int health = 3;
+    private int health;
     public GameObject[] hearts;
-    private bool isDie = false;
+    private bool isDie;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         nextPoint = pointB.position;
+        isThrowing = false;
+        isDie = false;
+        canThrow = true;
+        health = hearts.Length  ;
     }
 
     private void Update()
@@ -72,6 +76,7 @@ public class EnemyController : MonoBehaviour
 
             if (!isDie)
             {
+                anim.SetBool("walk", false);
                 anim.SetBool("damage", true);
                 StartCoroutine(HealthDown());
                 Destroy(coll.gameObject);
@@ -85,10 +90,20 @@ public class EnemyController : MonoBehaviour
                 int score = PlayerPrefs.GetInt("score");
                 score += PlayerPrefs.GetInt("health") * 25;
                 PlayerPrefs.SetInt("score", score);
+
+                StartCoroutine(AfterDie());
             }
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    IEnumerator AfterDie()
+    {
+        yield return new WaitForSeconds(1.5f);
+        this.GetComponent<CapsuleCollider2D>().enabled = false;
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+    }
+        private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {

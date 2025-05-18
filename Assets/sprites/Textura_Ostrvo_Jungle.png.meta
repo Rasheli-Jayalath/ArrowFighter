@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,1498 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 745
+        width: 157
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f57305845df2424da3b68e8cc3dcfc7
+      internalID: -2042688157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 743
+        width: 199
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22d0958ae79b8a4499f1bad74f607e5
+      internalID: 743280075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_2
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 916
+        width: 194
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62343025b6ee84aae63c62bdf6c79e
+      internalID: -2068892815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 930
+        width: 175
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ae03d216f34f4b88270e5cf091c6b
+      internalID: -1756117601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_4
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 979
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2174607e3baac264b8a9a919afc7258b
+      internalID: -2026593076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_5
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 979
+        width: 85
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863e520d3d0aea640b02533b71c245c3
+      internalID: -81221964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 832
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cd9824583939541ba63245df942e6b
+      internalID: 1457922415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_7
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 925
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b4344172af4546babce261469e311
+      internalID: -1654007594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_8
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 874
+        width: 57
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30c23859bd7f1b43ac9b17033cf2442
+      internalID: -601086828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_9
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 872
+        width: 54
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b815eef1f097dfa4781cb1c9ec3bf0af
+      internalID: -778120427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 855
+        width: 142
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae5498b18c2f2541a626f878bdc7160
+      internalID: 749309747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_11
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 857
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0d6b409f3558f46a53f5d93914d261
+      internalID: 85503224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_12
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 874
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b40a477db4648488d319ec44229ef9
+      internalID: -800650267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_13
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 743
+        width: 50
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be64d683b44246a4384a49a8f635963f
+      internalID: -2008655740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_14
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 849
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714dbddca7f33794c8da66507aa63718
+      internalID: -1768368262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_15
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 813
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e0412af0dbbb2449d7274c6a233159
+      internalID: -439806633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_16
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 788
+        width: 69
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cf501500c596140b002143f7d0e017
+      internalID: -1610290353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_17
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 797
+        width: 111
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419a3959f711c674d93b5dce6c5050c1
+      internalID: 350352764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_18
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 749
+        width: 179
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5664b4101add47248830297243ad29a9
+      internalID: 766304476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_19
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 795
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf71f95b7fb2b4429fa7c0df14b3fbb
+      internalID: 1724072424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_20
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 795
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3602ea4dddb14394736c7d518773d
+      internalID: 987329333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_21
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 728
+        width: 31
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0623e8a024bdd0447abd0130ae06ba76
+      internalID: -1754952045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 747
+        width: 139
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5f78f401396ea41a42c3061c8c7f7f
+      internalID: -326189753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_23
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 763
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a36d9ff2a2d5a4f97e32d470700035
+      internalID: -1188089898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_24
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 739
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab2d333d83ab714fb036af7b56b4f27
+      internalID: -1246160639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 763
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dc4d4c2b9bf3041b9fa316a4da0104
+      internalID: -2122780753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_26
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 748
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fea6d61aee84af4a911cc4b8e6f47a3
+      internalID: 296982520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_27
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 698
+        width: 128
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd59f1c00ea9054386bea8354fe0764
+      internalID: 912126297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_28
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 696
+        width: 87
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676dcd3d6a8714044af0686b5e17ed05
+      internalID: -1200122423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_29
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 695
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df3cd8f8ffaf8e47898a647008b4088
+      internalID: 1544393652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 570
+        width: 166
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c326493595fd96e4cb6e7419aa2f4339
+      internalID: -1028218717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 574
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8125a4fa9a6e54391c81afd737f52e
+      internalID: -1359494649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_32
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 563
+        width: 61
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebe47f964880294ea78370127c7113d
+      internalID: 1138883656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 557
+        width: 174
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb038b9bd631e344a86db65016690d76
+      internalID: -37721343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_34
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 394
+        width: 213
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8dc82da3ca41649a1351ed5e8893ae
+      internalID: 940109025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_35
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 474
+        width: 84
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be4be0e95d54e4c853fbc3703b3fa9
+      internalID: 1669435229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_36
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 595
+        width: 149
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9f0adfc83b219449d8697a0abad44f
+      internalID: -1993986105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_37
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 568
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d270fcb85a9a04741aa1219b3a871e77
+      internalID: 1047452698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_38
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 547
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ccb890c9c2131429a025315cdbbf7c
+      internalID: 315569678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_39
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 547
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba5698393871d48873c346d69f416b
+      internalID: 1764296378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 191
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd203628f4a61d43b2dd0c4ad778bf7
+      internalID: -1568223253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 457
+        width: 220
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215801cc00343d8488ab882ab987c94c
+      internalID: -477935623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_42
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 463
+        width: 119
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bedd39eeaca9f746a91c2962ce71ea3
+      internalID: 767526937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_43
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 476
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f268a56086005cc4c850de8d161125ae
+      internalID: -252303930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_44
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 476
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70587fa7e12173a4886d6c1b7caa45fb
+      internalID: -1857894606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_45
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 480
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213a5fb21f309024c9353cd7a4a22199
+      internalID: -1763229011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_46
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 477
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eeb959292bff04da1e773c4daa0999
+      internalID: 2056915224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 386
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759a53a3539114740b0aaa812cbf35ba
+      internalID: -433496900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 384
+        width: 99
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b35be41021ad34f94d96348ae6d1b3
+      internalID: 918868316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 326
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1b447258f10e346b04b23067c7074a
+      internalID: -1687678969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_50
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 180
+        width: 349
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fd6dbcdb433a44a81ea6e3290279c6
+      internalID: -1434072559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_51
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 413
+        width: 265
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f88839cf3b7fab4ab75311ffa9ed540
+      internalID: 1487730791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f5ad19a9715048a511ebb6cd6cd58
+      internalID: 1080943775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_53
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 323
+        width: 83
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5719709597a98524ebd2fb4d77a9a745
+      internalID: -672871767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_54
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 272
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e94cff5b85229944aa56e3bce5bfbcf
+      internalID: 996204579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_55
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 106
+        width: 104
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2af50ef45e60bc47bf32923574cf331
+      internalID: -321969095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_56
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1
+        width: 117
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0b8d2aab2ba904e889fe8aea7be01e
+      internalID: -1413821475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_57
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 268
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b7e64d0d3f3024fb80612cee28e96e
+      internalID: 1080809445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_58
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 196
+        width: 65
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065042f09cbde8f4aa88ac216309fb6f
+      internalID: -228906363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_59
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 165
+        width: 46
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356e00c71eb96b844b6a3f0b30ce2fa6
+      internalID: -2007673119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_60
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 146
+        width: 90
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9380d50bbba633747afde9ca1337cc34
+      internalID: 490655452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_61
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2
+        width: 121
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f419c36898f43042a8e43d75c0e1956
+      internalID: 1909829631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_62
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 7
+        width: 64
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b74527be1c54c84388697b1f40b89a6
+      internalID: -995771790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_63
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 32
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3caa410c0d34ae488ebce6818a5c4e7
+      internalID: -307374313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_64
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 186
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d10e8580c9002a4f9d537c48874ce99
+      internalID: 4768012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_65
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 154
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89ad11b2cbfd64b9800636d848b7cc
+      internalID: 846483162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_66
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 185
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc3763a149cb26468a5e9e3eb14810a
+      internalID: -1283153964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_67
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 153
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6979531d44f380408208198ac9f0e3b
+      internalID: 100514265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_68
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 158
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44a87b6526534a40ab0557b6ec5e38f
+      internalID: -511420999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_69
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 286
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440f98728210e9744b69cbf27100698b
+      internalID: 864531759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Jungle_70
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1
+        width: 72
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f486831edf5f3d44d95b09a31bad5b76
+      internalID: 1558077070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1623,78 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Textura_Ostrvo_Jungle_0: -2042688157
+      Textura_Ostrvo_Jungle_1: 743280075
+      Textura_Ostrvo_Jungle_10: 749309747
+      Textura_Ostrvo_Jungle_11: 85503224
+      Textura_Ostrvo_Jungle_12: -800650267
+      Textura_Ostrvo_Jungle_13: -2008655740
+      Textura_Ostrvo_Jungle_14: -1768368262
+      Textura_Ostrvo_Jungle_15: -439806633
+      Textura_Ostrvo_Jungle_16: -1610290353
+      Textura_Ostrvo_Jungle_17: 350352764
+      Textura_Ostrvo_Jungle_18: 766304476
+      Textura_Ostrvo_Jungle_19: 1724072424
+      Textura_Ostrvo_Jungle_2: -2068892815
+      Textura_Ostrvo_Jungle_20: 987329333
+      Textura_Ostrvo_Jungle_21: -1754952045
+      Textura_Ostrvo_Jungle_22: -326189753
+      Textura_Ostrvo_Jungle_23: -1188089898
+      Textura_Ostrvo_Jungle_24: -1246160639
+      Textura_Ostrvo_Jungle_25: -2122780753
+      Textura_Ostrvo_Jungle_26: 296982520
+      Textura_Ostrvo_Jungle_27: 912126297
+      Textura_Ostrvo_Jungle_28: -1200122423
+      Textura_Ostrvo_Jungle_29: 1544393652
+      Textura_Ostrvo_Jungle_3: -1756117601
+      Textura_Ostrvo_Jungle_30: -1028218717
+      Textura_Ostrvo_Jungle_31: -1359494649
+      Textura_Ostrvo_Jungle_32: 1138883656
+      Textura_Ostrvo_Jungle_33: -37721343
+      Textura_Ostrvo_Jungle_34: 940109025
+      Textura_Ostrvo_Jungle_35: 1669435229
+      Textura_Ostrvo_Jungle_36: -1993986105
+      Textura_Ostrvo_Jungle_37: 1047452698
+      Textura_Ostrvo_Jungle_38: 315569678
+      Textura_Ostrvo_Jungle_39: 1764296378
+      Textura_Ostrvo_Jungle_4: -2026593076
+      Textura_Ostrvo_Jungle_40: -1568223253
+      Textura_Ostrvo_Jungle_41: -477935623
+      Textura_Ostrvo_Jungle_42: 767526937
+      Textura_Ostrvo_Jungle_43: -252303930
+      Textura_Ostrvo_Jungle_44: -1857894606
+      Textura_Ostrvo_Jungle_45: -1763229011
+      Textura_Ostrvo_Jungle_46: 2056915224
+      Textura_Ostrvo_Jungle_47: -433496900
+      Textura_Ostrvo_Jungle_48: 918868316
+      Textura_Ostrvo_Jungle_49: -1687678969
+      Textura_Ostrvo_Jungle_5: -81221964
+      Textura_Ostrvo_Jungle_50: -1434072559
+      Textura_Ostrvo_Jungle_51: 1487730791
+      Textura_Ostrvo_Jungle_52: 1080943775
+      Textura_Ostrvo_Jungle_53: -672871767
+      Textura_Ostrvo_Jungle_54: 996204579
+      Textura_Ostrvo_Jungle_55: -321969095
+      Textura_Ostrvo_Jungle_56: -1413821475
+      Textura_Ostrvo_Jungle_57: 1080809445
+      Textura_Ostrvo_Jungle_58: -228906363
+      Textura_Ostrvo_Jungle_59: -2007673119
+      Textura_Ostrvo_Jungle_6: 1457922415
+      Textura_Ostrvo_Jungle_60: 490655452
+      Textura_Ostrvo_Jungle_61: 1909829631
+      Textura_Ostrvo_Jungle_62: -995771790
+      Textura_Ostrvo_Jungle_63: -307374313
+      Textura_Ostrvo_Jungle_64: 4768012
+      Textura_Ostrvo_Jungle_65: 846483162
+      Textura_Ostrvo_Jungle_66: -1283153964
+      Textura_Ostrvo_Jungle_67: 100514265
+      Textura_Ostrvo_Jungle_68: -511420999
+      Textura_Ostrvo_Jungle_69: 864531759
+      Textura_Ostrvo_Jungle_7: -1654007594
+      Textura_Ostrvo_Jungle_70: 1558077070
+      Textura_Ostrvo_Jungle_8: -601086828
+      Textura_Ostrvo_Jungle_9: -778120427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

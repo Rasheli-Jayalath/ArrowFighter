@@ -7,27 +7,40 @@ using UnityEngine.SceneManagement;
 
 public class menuManager : MonoBehaviour
 {
-   
+
     public Text coinValue;
     public Text arrowValue;
     public Text scoreText;
+    public GameObject EnemiesText;
+    public GameObject ArrowText;
     public int Arrows;
     public GameObject[] hearts;
     private int health;
     private int score;
 
-    public GameObject[] panels;
+    private bool isFailed;
+    private bool isFinished;
 
-    void Start()
+    public GameObject[] panels;  // 0 for mission complete, 1 for mission failed panel
+
+    private void Awake()
     {
-        PlayerPrefs.SetInt("arrows",Arrows);
+        PlayerPrefs.SetInt("arrows", Arrows);
         PlayerPrefs.SetInt("health", 3);
         PlayerPrefs.SetInt("score", 0);
+    }
+    void Start()
+    {
+        
 
-        foreach(GameObject panel in panels)
+        foreach (GameObject panel in panels)
         {
             panel.SetActive(false);
         }
+        isFailed = false;
+        isFinished = false;
+        EnemiesText.SetActive(false);
+        ArrowText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,8 +48,8 @@ public class menuManager : MonoBehaviour
     {
         int coinBal = PlayerPrefs.GetInt("coinBal");
         int arrowBal = PlayerPrefs.GetInt("arrows");
-        coinValue.text = "x"+coinBal.ToString();
-        arrowValue.text = "x"+ arrowBal.ToString();
+        coinValue.text = "x" + coinBal.ToString();
+        arrowValue.text = "x" + arrowBal.ToString();
         scoreText.text = PlayerPrefs.GetInt("score").ToString();
 
 
@@ -51,12 +64,55 @@ public class menuManager : MonoBehaviour
             hearts[j].SetActive(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+       
+
+        if (archerScript.isDie)
         {
-            BuyArrow();
+            isFailed = true;
+        }
+        if (finish.finished)
+        {
+            isFinished = true;
+        }
+
+        if (isFailed)
+        {
+            StartCoroutine(Failed());
+            
+        }
+        if (isFinished)
+        {
+            StartCoroutine(Finish());
+        }
+        if (finish.enemiesNotFinished)
+        {
+            EnemiesText.SetActive(true);
+        }
+        else
+        {
+            EnemiesText.SetActive(false);
+        }
+
+        if(PlayerPrefs.GetInt("arrows") == 0)
+        {
+            ArrowText.SetActive(true);
+        }
+        else
+        {
+            ArrowText.SetActive(false);
+
         }
     }
-
+    IEnumerator Failed()
+    {
+        yield return new WaitForSeconds(2f);
+        panels[1].SetActive(true);
+    }
+    IEnumerator Finish()
+    {
+        yield return new WaitForSeconds(0.5f);
+        panels[0].SetActive(true);
+    }
     public void GotoMenu()
     {
         SceneManager.LoadScene(0);
@@ -73,13 +129,7 @@ public class menuManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void BuyArrow()
-    {
-        int arrowBal = PlayerPrefs.GetInt("arrows");
-        int coinBal = PlayerPrefs.GetInt("coinBal");
-        arrowBal += 2;
-        coinBal--;
-        PlayerPrefs.SetInt("arrows", arrowBal);
-        PlayerPrefs.SetInt("coinBal", coinBal);
-    }
+
+
+  
 }

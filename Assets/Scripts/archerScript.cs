@@ -10,24 +10,29 @@ public class archerScript : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator anim;
-    private bool isGrounded = true;
+    private bool isGrounded;
     private float h;
-    private bool jumpPressed = false;
+    private bool jumpPressed;
 
-    private bool arrowReady = true;
+    private bool arrowReady ;
     public float arrowForce;
     public GameObject arrow;
 
 
     private int health;
     public static bool isDie = false;
-    private bool dieHasTriggered = false;
+    private bool dieHasTriggered ;
 
     private int Arrows;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        isDie = false;
+        isGrounded = true;
+        jumpPressed = false;
+        arrowReady = true;
+        dieHasTriggered = false;
     }
 
     private void Start()
@@ -44,7 +49,7 @@ public class archerScript : MonoBehaviour
         {
             jumpPressed = true;
         }
-        if (Input.GetButtonDown("Fire1") && arrowReady)
+        if (Input.GetButtonDown("Fire2") && arrowReady )
         {
             //isShoot = true;
             ArrowShoot();
@@ -66,10 +71,22 @@ public class archerScript : MonoBehaviour
             anim.SetBool("die", true);
             dieHasTriggered = false;
         }
-
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            BuyArrow();
+        }
 
     }
-
+    public void BuyArrow()
+    {
+        
+        int coinBal = PlayerPrefs.GetInt("coinBal");
+        Arrows += 2;
+        coinBal--;
+        PlayerPrefs.SetInt("arrows", Arrows);
+        PlayerPrefs.SetInt("coinBal", coinBal);
+        arrowReady = true;
+    }
     void FixedUpdate()
     {
         if (!isDie)

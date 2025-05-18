@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 668
+        width: 381
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1705df7c070364aab3eaa59a039712
+      internalID: -168678965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 666
+        width: 456
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e811a297791f6954d8f81f51fbdc780b
+      internalID: 1874774559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_2
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 930
+        width: 176
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bf210529d91b046920b4415ef671ba
+      internalID: -961445492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 832
+        width: 178
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a60cd7fb625a254a99794513d25545e
+      internalID: 1970563435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_4
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 701
+        width: 163
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e07665ee7c5347968cade4b90d560
+      internalID: 1524647885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 570
+        width: 168
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42bc7725e2496944aeb39b31dfa98a8
+      internalID: -1763726199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 574
+        width: 67
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb74f7c522cfe047b02c66153f904a7
+      internalID: 393628899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 563
+        width: 61
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94fcfa9a966d3349925303e77c1e7ba
+      internalID: -1734671222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 557
+        width: 165
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d826649960c97744f86c0bfac4149a74
+      internalID: -1688147024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_9
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 383
+        width: 175
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50fae42b20bd8744b2ca3bc7460b1a4
+      internalID: 18317441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_10
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 600
+        width: 172
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44646e4a5a1252a4a8072ac017e807aa
+      internalID: 332044890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 568
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb4bd52196f3e140ac84661f48ce638
+      internalID: 1589880635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 573
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ddefe89556fce42a82abb30bf5f142
+      internalID: 1708234822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_13
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 547
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f425ce012a6e324c9bd2ef6e8a5ae64
+      internalID: -1340730124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_14
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 547
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87b376c5917a044b16eca1ceb1789d
+      internalID: -1155363607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 191
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca424c7d7a90173488f343d480f04775
+      internalID: 1583856355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 443
+        width: 247
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c57dd8ef80cd094c9732951766c2103
+      internalID: 55962915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 442
+        width: 135
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a589eed1464a7b4a95de0929a3a9de7
+      internalID: 15906011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_18
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 476
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b80626f44e3dfd4898c25c2638432df
+      internalID: 1672411945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_19
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 476
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebde7f97724870943972fe1bf07908c3
+      internalID: 48075273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_20
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 480
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c037f81cdb19d48baf516d2d3000d3
+      internalID: 1794156753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_21
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 477
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005778685d7ff1b4f82ed6dbcf2d298c
+      internalID: 1740167354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 450
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07305ad6732261a4c8e055b4d295b130
+      internalID: 1429062470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 454
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e5c7f305a35d243aaf8256902de84e
+      internalID: 291828062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_24
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 394
+        width: 179
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2d4fd127f845d409a537e1a4531066
+      internalID: 1940312052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 443
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b7452ad188b04f90613d1f73328a0
+      internalID: 1507275880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 386
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31307251cc2737f4198afde12475f6cb
+      internalID: -2052529452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 389
+        width: 101
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5775c1f305139418e7e23d3eba2235
+      internalID: -1008461157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 322
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc53fa355c630214f923a9c12fa4fcfd
+      internalID: 1345197067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_29
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 324
+        width: 288
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c9dccf9214dce4287ce0f69c8b87fc
+      internalID: 1492397578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_30
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 325
+        width: 16
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343c79f2fa6085241a2f8914c3af5618
+      internalID: 1641960649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 323
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3df4ee053f3fbf49b64cd15bfe27049
+      internalID: 2074215738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_32
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 322
+        width: 84
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd98507d183f80a41806cbc14eef1574
+      internalID: -1743659061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_33
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 320
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd2149189cf59b4d911da12a1dfb8c8
+      internalID: 2025012440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_34
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 151
+        width: 65
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7214b066ec5214d8f8617072ac8007
+      internalID: 1076196882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_35
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 324
+        width: 70
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d691b2a5beb2cd4aa0bc074631d5a6a
+      internalID: -1739892143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_36
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 271
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ad16d4133c2ae46901d17a4d2b691c
+      internalID: -1905072076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_37
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 262
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eaaf819f15bc842b50cb8a53181009
+      internalID: -851511530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 146
+        width: 96
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2d98c43094f5849b661572835f5095
+      internalID: -1989416071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_39
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 146
+        width: 90
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a2ed2492d1ed4fa0bf1bc818f7137
+      internalID: 1112374278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_40
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 120
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87e9989b1cca874697e7182000433a8
+      internalID: -2076370761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_41
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 0
+        width: 66
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fd8dfe1d3e51643b06ddcf8681dad0
+      internalID: 870993230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_42
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 286
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dcfac9d126707448d351908382fbe1
+      internalID: 1767616913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Textura_Ostrvo_Savanna_43
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 174
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dbadae23741114484c7d28400681f7
+      internalID: -1251926644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1056,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Textura_Ostrvo_Savanna_0: -168678965
+      Textura_Ostrvo_Savanna_1: 1874774559
+      Textura_Ostrvo_Savanna_10: 332044890
+      Textura_Ostrvo_Savanna_11: 1589880635
+      Textura_Ostrvo_Savanna_12: 1708234822
+      Textura_Ostrvo_Savanna_13: -1340730124
+      Textura_Ostrvo_Savanna_14: -1155363607
+      Textura_Ostrvo_Savanna_15: 1583856355
+      Textura_Ostrvo_Savanna_16: 55962915
+      Textura_Ostrvo_Savanna_17: 15906011
+      Textura_Ostrvo_Savanna_18: 1672411945
+      Textura_Ostrvo_Savanna_19: 48075273
+      Textura_Ostrvo_Savanna_2: -961445492
+      Textura_Ostrvo_Savanna_20: 1794156753
+      Textura_Ostrvo_Savanna_21: 1740167354
+      Textura_Ostrvo_Savanna_22: 1429062470
+      Textura_Ostrvo_Savanna_23: 291828062
+      Textura_Ostrvo_Savanna_24: 1940312052
+      Textura_Ostrvo_Savanna_25: 1507275880
+      Textura_Ostrvo_Savanna_26: -2052529452
+      Textura_Ostrvo_Savanna_27: -1008461157
+      Textura_Ostrvo_Savanna_28: 1345197067
+      Textura_Ostrvo_Savanna_29: 1492397578
+      Textura_Ostrvo_Savanna_3: 1970563435
+      Textura_Ostrvo_Savanna_30: 1641960649
+      Textura_Ostrvo_Savanna_31: 2074215738
+      Textura_Ostrvo_Savanna_32: -1743659061
+      Textura_Ostrvo_Savanna_33: 2025012440
+      Textura_Ostrvo_Savanna_34: 1076196882
+      Textura_Ostrvo_Savanna_35: -1739892143
+      Textura_Ostrvo_Savanna_36: -1905072076
+      Textura_Ostrvo_Savanna_37: -851511530
+      Textura_Ostrvo_Savanna_38: -1989416071
+      Textura_Ostrvo_Savanna_39: 1112374278
+      Textura_Ostrvo_Savanna_4: 1524647885
+      Textura_Ostrvo_Savanna_40: -2076370761
+      Textura_Ostrvo_Savanna_41: 870993230
+      Textura_Ostrvo_Savanna_42: 1767616913
+      Textura_Ostrvo_Savanna_43: -1251926644
+      Textura_Ostrvo_Savanna_5: -1763726199
+      Textura_Ostrvo_Savanna_6: 393628899
+      Textura_Ostrvo_Savanna_7: -1734671222
+      Textura_Ostrvo_Savanna_8: -1688147024
+      Textura_Ostrvo_Savanna_9: 18317441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

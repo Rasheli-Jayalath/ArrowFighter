@@ -46,7 +46,8 @@ public class arrowScript : MonoBehaviour
             //this.gameObject.SetActive(false);
             Destroy(this.gameObject);
         }
-
+        yield return new WaitForSeconds(2f);
+        Destroy(this.gameObject);
     }
 
 }

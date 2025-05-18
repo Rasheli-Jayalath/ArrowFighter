@@ -7,12 +7,16 @@ using UnityEngine;
 public class pausemenu : MonoBehaviour
 {
   
-    public bool isPaused = false;
+    public bool isPaused;
 
     public GameObject menu;
-    
 
-    
+
+    private void Start()
+    {
+        isPaused = false;
+        resume();
+    }
     public void Update() 
     {
         if (Input.GetKeyDown(KeyCode.Escape))

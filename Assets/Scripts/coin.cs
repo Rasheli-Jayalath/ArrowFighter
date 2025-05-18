@@ -19,15 +19,18 @@ public class coin : MonoBehaviour
             int coinBal = PlayerPrefs.GetInt("coinBal");
             coinBal++;
             PlayerPrefs.SetInt("coinBal", coinBal);
-            Destroy(this.gameObject);
+        
 
             int score = PlayerPrefs.GetInt("score");
             score += PlayerPrefs.GetInt("health") * 5;
             PlayerPrefs.SetInt("score", score);
-            yield return new WaitForSeconds(1f);
-            
-            
-            
+
+            Destroy(this.gameObject);
+            yield return new WaitForSeconds(0.2f);
+
+         
+
+
         }
 
     }
