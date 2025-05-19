@@ -11,6 +11,7 @@ TagManager:
   - coin
   - fall
   - fireball2
+  - enemy
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
 
     public Transform pointA;
     public Transform pointB;
-    public Transform player;
+    private Transform player;
     public GameObject projectilePrefab;
 
     
@@ -28,6 +28,7 @@ public class EnemyController : MonoBehaviour
     public GameObject[] hearts;
     private bool isDie;
 
+    public Vector2 setDirection;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -36,7 +37,8 @@ public class EnemyController : MonoBehaviour
         isThrowing = false;
         isDie = false;
         canThrow = true;
-        health = hearts.Length  ;
+        health = hearts.Length;
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     private void Update()
@@ -67,6 +69,20 @@ public class EnemyController : MonoBehaviour
         for (int j = health; j < hearts.Length; j++)
         {
             hearts[j].SetActive(false);
+        }
+
+        Vector2 playerPos = player.position;
+        Vector2 enemyPos = transform.position;
+        setDirection = playerPos - enemyPos;
+        if (setDirection.x < -6 || setDirection.x > 6)
+        {
+            isThrowing = false;
+
+        }
+        else
+        {
+            isThrowing = true;
+
         }
     }
     private void OnTriggerEnter2D(Collider2D coll)
@@ -147,12 +163,12 @@ public class EnemyController : MonoBehaviour
             if (nextPoint == pointA.position)
             {
                 nextPoint = pointB.position;
-                FaceDirection(false);
+                FaceDirection(true);
             }
             else
             {
                 nextPoint = pointA.position;
-                FaceDirection(true); 
+                FaceDirection(false); 
             }
         }
     }

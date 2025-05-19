@@ -11,6 +11,7 @@ public class menuManager : MonoBehaviour
     public Text coinValue;
     public Text arrowValue;
     public Text scoreText;
+    public Text scoreTextCompletePanel;
     public GameObject EnemiesText;
     public GameObject ArrowText;
     public int Arrows;
@@ -50,8 +51,9 @@ public class menuManager : MonoBehaviour
         int arrowBal = PlayerPrefs.GetInt("arrows");
         coinValue.text = "x" + coinBal.ToString();
         arrowValue.text = "x" + arrowBal.ToString();
-        scoreText.text = PlayerPrefs.GetInt("score").ToString();
-
+        score = PlayerPrefs.GetInt("score");
+        scoreText.text = score.ToString();
+        scoreTextCompletePanel.text = "Your Score: "+score.ToString();
 
         health = PlayerPrefs.GetInt("health");
 
@@ -101,6 +103,15 @@ public class menuManager : MonoBehaviour
         {
             ArrowText.SetActive(false);
 
+        }
+    }
+
+    public void HighScore()
+    {
+        int scoreValue = PlayerPrefs.GetInt("highscore" + (SceneManager.GetActiveScene().buildIndex - 1));
+        if (score > scoreValue)
+        {
+            PlayerPrefs.SetInt("highscore" + (SceneManager.GetActiveScene().buildIndex - 1), score);
         }
     }
     IEnumerator Failed()

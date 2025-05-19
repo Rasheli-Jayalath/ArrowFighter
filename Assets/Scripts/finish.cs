@@ -21,6 +21,7 @@ public class finish : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
+        enemies = GameObject.FindGameObjectsWithTag("enemy").Length;
         if (coll.CompareTag("Player"))
         {
             if(enemies == 0)

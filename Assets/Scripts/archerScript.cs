@@ -56,7 +56,7 @@ public class archerScript : MonoBehaviour
         }
 
         HandleAnimations();
-        if(!isDie)
+        if(!isDie && !finish.finished)
         {
 
             health = PlayerPrefs.GetInt("health");
@@ -71,7 +71,7 @@ public class archerScript : MonoBehaviour
             anim.SetBool("die", true);
             dieHasTriggered = false;
         }
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R) && !finish.finished && !isDie)
         {
             BuyArrow();
         }
@@ -89,7 +89,7 @@ public class archerScript : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (!isDie)
+        if (!isDie && !finish.finished)
         {
             Move();
             Jump();

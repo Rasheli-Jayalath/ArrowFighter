@@ -6,6 +6,7 @@ using UnityEngine;
 public class arrowScript : MonoBehaviour
 {
     private Rigidbody2D rb;
+    public float life = 3.0f;
     bool hit = false;
 
     void Start()
@@ -42,11 +43,12 @@ public class arrowScript : MonoBehaviour
             rb.velocity = Vector2.zero;
             rb.isKinematic = true;
             this.GetComponent<BoxCollider2D>().enabled = false;
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(life);
             //this.gameObject.SetActive(false);
             Destroy(this.gameObject);
         }
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(life
+            );
         Destroy(this.gameObject);
     }
 
