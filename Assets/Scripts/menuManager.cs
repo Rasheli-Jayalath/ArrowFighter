@@ -29,6 +29,8 @@ public class menuManager : MonoBehaviour
         PlayerPrefs.SetInt("arrows", Arrows);
         PlayerPrefs.SetInt("health", 3);
         PlayerPrefs.SetInt("score", 0);
+        finish.finished = false;
+        finish.enemiesNotFinished = false;
     }
     void Start()
     {
@@ -108,10 +110,10 @@ public class menuManager : MonoBehaviour
 
     public void HighScore()
     {
-        int scoreValue = PlayerPrefs.GetInt("highscore" + (SceneManager.GetActiveScene().buildIndex - 1));
+        int scoreValue = PlayerPrefs.GetInt("highscore" + (SceneManager.GetActiveScene().buildIndex - 2));
         if (score > scoreValue)
         {
-            PlayerPrefs.SetInt("highscore" + (SceneManager.GetActiveScene().buildIndex - 1), score);
+            PlayerPrefs.SetInt("highscore" + (SceneManager.GetActiveScene().buildIndex - 2), score);
         }
     }
     IEnumerator Failed()
@@ -136,6 +138,7 @@ public class menuManager : MonoBehaviour
 
     public void NextMission()
     {
+        PlayerPrefs.SetInt("missionnum", SceneManager.GetActiveScene().buildIndex - 1);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         SceneManager.LoadScene(1);
     }

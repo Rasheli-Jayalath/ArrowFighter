@@ -35,4 +35,9 @@ public class UImanager : MonoBehaviour
     {
         SceneManager.LoadScene(m+1);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

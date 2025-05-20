@@ -12,9 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/missions.unity
     guid: 2293013181160784fa56ff1bf44dfc58
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/m01.unity
+    guid: 01b26373af2936248a9f28a802ecd470
   - enabled: 1
-    path: Assets/Scenes/m1.unity
-    guid: 14961715b15640e4b80e5f90e87740ff
+    path: Assets/Scenes/m02.unity
+    guid: 16b869629cb118c42aec4033ddefe4ad
+  - enabled: 1
+    path: Assets/Scenes/m03.unity
+    guid: 68478dff758f1fe4299425a54544abad
+  - enabled: 1
+    path: Assets/Scenes/m04.unity
+    guid: 9d6e25717b2f6fc4ea998644b29dfa60
   m_configObjects: {}
